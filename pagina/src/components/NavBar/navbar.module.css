@@ -1,0 +1,40 @@
+* {
+    font-family: 'Tilt Warp', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s all ease-in-out both;
+    padding: 10px 10px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    min-height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 210, 210, 0);
+}
+
+.logo {
+    height: 55px;
+}
+
+.sectionLinks {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.buttonCarrito{
+    background-color: transparent;
+    border: none;
+}
