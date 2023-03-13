@@ -7,7 +7,7 @@ import styles from './navbar.module.css'
 export const Navbar = () => {
     
     return (
-        <header className={styles.header}>
+        <header className={`${styles.header} animate__animated animate__fadeInDown`}>
             <nav className={styles.navbar}>
             <div className={styles.divLogo}>
                 <a href="#">
