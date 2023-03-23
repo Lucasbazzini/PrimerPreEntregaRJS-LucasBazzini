@@ -1,10 +1,13 @@
 import React from 'react'
+import Card from '../Card'
 import styles from './list.module.css'
 
-const ItemListContainer = (productos) => {
+const ItemListContainer = ({productos}) => {
   return (
-    <div>
-      {productos.map((productos) => (<h3 key={pizzas.id}>{productos.titulo}</h3>))}
+    <div className={styles.container}>
+      {productos.map((productos) => (
+      <Card key={productos.id} productos={productos}/>
+      ))}
     </div>
   )
 }
