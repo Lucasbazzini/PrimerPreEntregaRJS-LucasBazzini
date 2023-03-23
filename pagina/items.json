@@ -1,0 +1,62 @@
+{
+    "pizzeria": "Pizza Club",
+    "pizzas": [
+      {
+        "id": 1,
+        "titulo": "Pizza Margarita",
+        "precio": 8.99,
+        "imagen": "./assets/margarita",
+        "descripcion": "Deliciosa pizza con salsa de tomate, mozzarella fresca y hojas de albahaca."
+      },
+      {
+        "id": 2,
+        "titulo": "Pizza Pepperoni",
+        "precio": 10.99,
+        "imagen": "./assets/pepperoni",
+        "descripcion": "Pizza clásica de pepperoni, con salsa de tomate y queso mozzarella derretido."
+      },
+      {
+        "id": 3,
+        "titulo": "Pizza Hawaiana",
+        "precio": 11.99,
+        "imagen": "./assets/hawaiana",
+        "descripcion": "Pizza con jamón, piña, salsa de tomate y queso mozzarella."
+      },
+      {
+        "id": 4,
+        "titulo": "Pizza vegetariana",
+        "precio": 14.99,
+        "imagen": "./assets/vegetariana",
+        "descripcion": "Esta pizza está hecha con una mezcla de verduras, como pimientos, cebolla, champiñones y aceitunas negras. También se puede agregar queso feta para un toque extra de sabor."
+      },
+      {
+        "id": 5,
+        "titulo": "Pizza de pollo a la barbacoa",
+        "precio": 9.99,
+        "imagen": "./assets/pollo",
+        "descripcion": "Esta pizza tiene una base de salsa de tomate y queso mozzarella, pero se le agrega pollo desmenuzado marinado en salsa barbacoa. También se pueden agregar cebolla y pimiento."
+      },
+      {
+        "id": 6,
+        "titulo": "Pizza Napolitana",
+        "precio": 12.99,
+        "imagen": "./assets/napolitana",
+        "descripcion": "La pizza napolitana es una pizza tradicional italiana originaria de Nápoles, hecha con tomate fresco, mozzarella y aceite de oliva, y cocida en un horno de leña a altas temperaturas, resultando en una corteza gruesa y esponjosa."
+      },
+      {
+        "id": 7,
+        "titulo": "Pizza de cuatro quesos",
+        "precio": 8.99,
+        "imagen": "./assets/4quesos",
+        "descripcion": "Esta pizza tiene una base de salsa de tomate y una mezcla de cuatro quesos diferentes, como mozzarella, parmesano, gorgonzola y provolone. También se pueden agregar hojas de albahaca fresca."
+      },
+      {
+        "id": 8,
+        "titulo": "Pizza de hongos",
+        "precio": 8.99,
+        "imagen": "./assets/hongos",
+        "descripcion": "La pizza de hongos es una variedad de pizza que incluye una selección de hongos, como champiñones y setas, junto con queso y salsa de tomate. Es una opción popular para los amantes de los hongos y vegetarianos."
+      }
+    ]
+  }
+  

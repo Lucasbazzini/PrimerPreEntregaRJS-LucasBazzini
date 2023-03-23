@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './hero.module.css'
-import ItemListContainer from '../ItemListContainer'
+import Greeting from '../Greeting'
 
 export const Hero = () => {
     return (
@@ -12,10 +12,7 @@ export const Hero = () => {
                     </h1>
                 </div>
                 <div className={`${styles.divText} animate__animated animate__fadeInRight `}>
-                <ItemListContainer />
-                    {/*<h2 className={styles.text}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum unde iusto odio ut delectus, fugit velit alias laborum, itaque repellat, optio aspernatur quae? Libero qui, inventore esse eum enim distinctio.
-                    </h2>*/}
+                <Greeting />
                 </div>
             </div>
         </section>

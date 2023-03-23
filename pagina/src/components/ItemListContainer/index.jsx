@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './item.module.css'
+import styles from './list.module.css'
 
-const ItemListContainer = ({ greeting = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum unde iusto odio ut delectus, fugit velit alias laborum, itaque repellat, optio aspernatur quae? Libero qui, inventore esse eum enim distinctio." }) => {
-    return (
-      <div>
-        <h2 className={styles.text}>{greeting}</h2>
-      </div>
-    );
-  };
+const ItemListContainer = (productos) => {
+  return (
+    <div>
+      {productos.map((productos) => (<h3 key={pizzas.id}>{productos.titulo}</h3>))}
+    </div>
+  )
+}
 
 export default ItemListContainer
