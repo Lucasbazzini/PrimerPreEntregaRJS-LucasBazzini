@@ -8,7 +8,7 @@ export const Hero = () => {
             <div className={styles.divHero}>
                 <div className={styles.divTittle}>
                     <h1 className={`${styles.tittle} animate__animated animate__fadeInLeft`}>
-                        PizzaClub: ¡La pizza más sabrosa de la década de los 80s!
+                    Potencia tu gaming con nuestros componentes
                     </h1>
                 </div>
                 <div className={`${styles.divText} animate__animated animate__fadeInRight `}>

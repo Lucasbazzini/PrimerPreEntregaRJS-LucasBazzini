@@ -1,9 +1,4 @@
-* {
-    font-family: 'Tilt Warp', cursive;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .header{
     backdrop-filter: blur(2.5px);
@@ -24,7 +19,7 @@
 }
 
 .logo {
-    height: 55px;
+    height: 70px;
 }
 
 .sectionLinks {

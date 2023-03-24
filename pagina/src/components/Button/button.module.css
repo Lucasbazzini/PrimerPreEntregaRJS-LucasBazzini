@@ -2,12 +2,9 @@
     padding: 1rem 2rem;
     font-weight: 700;
     background: transparent;
-    color: rgb(169, 78, 255);
-    border-radius: .5rem;
-    border-bottom: 2px solid rgb(169, 78, 255);
-    border-right: 2px solid rgb(169, 78, 255);
-    border-top: 2px solid rgb(169, 78, 255);
-    border-left: 2px solid rgb(169, 78, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
     transition-duration: 0.3s;
     transition-property: border-top,
         border-left,
@@ -17,15 +14,14 @@
 }
 
 .btn:hover {
-    border-top: 2px solid rgb(238, 103, 238);
-    border-left: 2px solid rgb(238, 103, 238);
-    border-bottom: 2px solid rgb(238, 103, 238);
-    border-right: 2px solid rgb(238, 103, 238);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px;
 }
 
 .ancla {
     letter-spacing: 2px;
     text-decoration: none;
-    color: rgb(169, 78, 255);
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    transition: all 0.3s;
 }

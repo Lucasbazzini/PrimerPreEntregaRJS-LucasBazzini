@@ -18,7 +18,7 @@ export const Navbar = () => {
             <div className={styles.sectionLinks}>
                 <Button text='Nosotros'/>
                 <Link to="/productos">
-                <Button text='Especialidades'/>
+                <Button text='Productos'/>
                 </Link>
                 <Button text='Contacto'/>
             </div>
