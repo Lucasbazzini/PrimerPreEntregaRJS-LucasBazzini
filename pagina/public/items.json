@@ -1,0 +1,127 @@
+{
+    "local": "H4ardWare",
+    "componentes": [
+      {
+        
+        "id": 1,
+        "titulo": "Intel Core i3",
+        "precio": 115.99,
+        "imagen": "./src/assets/i3.png",
+        "descripcion": "Procesador de gama baja de Intel, adecuado para tareas informáticas básicas",
+        "categoria": "Micro Procesador",
+        "stock": 4,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 2,
+        "titulo": "Intel Core i5",
+        "precio": 130.99,
+        "imagen": "./src/assets/i5.png",
+        "descripcion": "Procesador de gama media de Intel, adecuado para tareas informáticas generales y juegos.",
+        "categoria": "Micro Procesador",
+        "stock": 2,
+        "calificacion": "★★★★★"
+      },
+      {
+        "id": 3,
+        "titulo": "Intel Core i7",
+        "precio": 150.99,
+        "imagen": "./src/assets/i7.png",
+        "descripcion": "Procesador de gama alta de Intel, adecuado para tareas informáticas intensivas y juegos avanzados.",
+        "categoria": "Micro Procesador",
+        "stock": 7,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 4,
+        "titulo": "Memoria Ram 2400mhz",
+        "precio": 22.99,
+        "imagen": "./src/assets/memoria2.png",
+        "descripcion": "Memoria de acceso aleatorio de velocidad media para computadoras de escritorio o portátiles.",
+        "categoria": "Micro Procesador",
+        "stock": 16,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 5,
+        "titulo": "Memoria ram 3200mhz",
+        "precio": 25.99,
+        "imagen": "./src/assets/memoria1.png",
+        "descripcion": "Memoria de acceso aleatorio de alta velocidad para computadoras de escritorio o portátiles.",
+        "categoria": "Memoria Ram",
+        "stock": 12,
+        "calificacion": "★★★★★"
+      },
+      {
+        "id": 6,
+        "titulo": "Monitor Samsung 24'",
+        "precio": 45.99,
+        "imagen": "./src/assets/monitor1.png",
+        "descripcion": "Monitor de tamaño medio de Samsung con calidad de imagen decente para uso diario.",
+        "categoria": "Memoria Ram",
+        "stock": 2,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 7,
+        "titulo": "Monitor Samsung 28'",
+        "precio": 50.99,
+        "imagen": "./src/assets/monitor2.png",
+        "descripcion": "Monitor de gran tamaño de Samsung con calidad de imagen nítida y amplio campo de visión para entretenimiento y trabajo.",
+        "categoria": "Monitor",
+        "stock": 3,
+        "calificacion": "★★★☆☆"
+      },
+      {
+        "id": 8,
+        "titulo": "SSD 480gb",
+        "precio": 23.99,
+        "imagen": "./src/assets/ssd2.png",
+        "descripcion": "Disco de estado sólido de capacidad media para almacenamiento y acceso rápido a datos.",
+        "categoria": "Monitor",
+        "stock": 6,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 9,
+        "titulo": "SSD 1TB",
+        "precio": 40.99,
+        "imagen": "./src/assets/ssd1.png",
+        "descripcion": "Disco de estado sólido de alta capacidad para almacenamiento y acceso rápido a datos.",
+        "categoria": "SSD",
+        "stock": 4,
+        "calificacion": "★★★★★"
+      },
+      {
+        "id": 10,
+        "titulo": "SSD 520gb",
+        "precio": 25.99,
+        "imagen": "./src/assets/ssd3.png",
+        "descripcion": "Disco de estado sólido de capacidad media y velocidad rápida para almacenamiento y acceso rápido a datos.",
+        "categoria": "SSD",
+        "stock": 5,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 11,
+        "titulo": "Tarjeta Grafica 4gb",
+        "precio": 95.99,
+        "imagen": "./src/assets/tg1.png",
+        "descripcion": "Tarjeta gráfica de gama media con capacidad de procesamiento gráfico decente para juegos y tareas de diseño.",
+        "categoria": "Tarjeta Gráfica",
+        "stock": 2,
+        "calificacion": "★★★★☆"
+      },
+      {
+        "id": 12,
+        "titulo": "Tarjeta Grafica 8gb",
+        "precio": 100.99,
+        "imagen": "./src/assets/tg3.png",
+        "descripcion": "Tarjeta gráfica de gama alta con capacidad de procesamiento gráfico potente para juegos y tareas de diseño intensivas.",
+        "categoria": "Tarjeta Gráfica",
+        "stock": 1,
+        "calificacion": "★★★★★"
+      }
+    ]
+  }
+  

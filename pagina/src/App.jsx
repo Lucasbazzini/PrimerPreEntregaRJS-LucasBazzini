@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes, useParams } from 'react-router-dom'
 import './App.css'
+import ItemDetail from './components/ItemDetail'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import ItemListContainer from './components/ItemListContainer'
@@ -12,7 +13,7 @@ function App() {
   useEffect(() => {
     fetch("./items.json")
       .then((response) => response.json())
-      .then(data => setProductos(data.pizzas))
+      .then(data => setProductos(data.componentes))
   }, []);
 
   return (
@@ -22,8 +23,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/home"/>} />
         <Route path="/home" element={<Hero />}  />
-        <Route path='/productos' element={<ItemListContainer productos={productos}/> }>
-        </Route>
+        <Route path='/productos' element={<ItemListContainer productos={productos}/>}/>
+        <Route path='/productos/:id' element={<ItemDetail productos={productos}/>}/>
       </Routes>
     </div>
   )
